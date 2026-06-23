@@ -9,8 +9,7 @@
 > Em desenvolvimento :warning:
 
 ### :robot: Tecnologias utilizadas
-![Static Badge](https://img.shields.io/badge/HTML5-e5542c?style=for-the-badge&logo=HTML5&logoColor=white) ![Static Badge](https://img.shields.io/badge/CSS3-1c76b8?style=for-the-badge&logo=CSS) ![Static Badge](https://img.shields.io/badge/Javascript-v24.14.1-555555?style=for-the-badge&logo=Javascript&logoColor=000000&labelColor=f7e11f)
-
+![Static Badge](https://img.shields.io/badge/HTML5-e5542c?style=for-the-badge&logo=HTML5&logoColor=white) ![Static Badge](https://img.shields.io/badge/CSS3-1c76b8?style=for-the-badge&logo=CSS) ![Static Badge](https://img.shields.io/badge/JAVASCRIPT-f7e11f?style=for-the-badge&logo=Javascript&logoColor=000000) ![Static Badge](https://img.shields.io/badge/NODE.JS-v24.15.0-555555?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF&labelColor=5FA04E)
 
 ### :floppy_disk: Versão:
 > 1.0.0
