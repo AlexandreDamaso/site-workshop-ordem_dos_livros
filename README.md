@@ -1,6 +1,6 @@
 # Ordem dos Livros
 
-<img src="https://github.com/AlexandreDamaso/project-workshop-jogo_da_velha/blob/main/src/img/logo_readme.png" alt="Imagem do Projeto">
+<img width="700px" src="https://github.com/AlexandreDamaso/site-workshop-ordem_dos_livros/blob/main/readme-imagem.webp" alt="Imagem do README">
 
 > Site que mostra ordem de leitura de livros, bem como seus autores e outros livros deste autores.
 
