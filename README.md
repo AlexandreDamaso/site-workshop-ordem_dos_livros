@@ -1,23 +1,42 @@
-# Ordem dos Livros
+# sv
 
-<img width="700px" src="https://github.com/AlexandreDamaso/site-workshop-ordem_dos_livros/blob/main/readme-imagem.webp" alt="Imagem do README">
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-> Site que mostra ordem de leitura de livros, bem como seus autores e outros livros deste autores.
+## Creating a project
 
-### :gear: Status
-<!-- > Concluido :heavy_check_mark: -->
-> Em desenvolvimento :warning:
+If you're seeing this, you've probably already done this step. Congrats!
 
-### :robot: Tecnologias utilizadas
+```sh
+# create a new project
+npx sv create my-app
+```
 
-![Static Badge](https://img.shields.io/badge/HTML5-e5542c?style=for-the-badge&logo=HTML5&logoColor=white) ![Static Badge](https://img.shields.io/badge/CSS3-1c76b8?style=for-the-badge&logo=CSS) ![Static Badge](https://img.shields.io/badge/JAVASCRIPT-f7e11f?style=for-the-badge&logo=Javascript&logoColor=000000) ![Static Badge](https://img.shields.io/badge/NODE.JS-v24.15.0-555555?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF&labelColor=5FA04E)
+To recreate this project with the same configuration:
 
-### :floppy_disk: Versão:
-> 1.0.0
+```sh
+# recreate this project
+npx sv@0.16.1 create --template minimal --types ts --add tailwindcss="plugins:typography" --install npm ./
+```
 
-### :hammer_and_wrench: Desenvolvedores
-| [<img src="https://avatars.githubusercontent.com/u/75190673?v=4" width=115 > <br> <sub> Alexandre Damaso </sub>](https://github.com/AlexandreDamaso) |
-| :---: |
+## Developing
 
-### :balance_scale: Licença
-![Static Badge](https://img.shields.io/badge/GPL-3.0%20license-555555?style=for-the-badge&labelColor=bf0808)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```sh
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```sh
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
